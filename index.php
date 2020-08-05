@@ -58,7 +58,8 @@ session_start();
             ?>
             <li><a href="POO/views/login.php">Iniciar Sesión</a></li>
             <li><a href="POO/views/register.php">Registro</a></li>
-            <?php}else{
+            <?php
+            }else{
               ?>
               <li><a href="POO/si/logout.php">Cerrar Sesión</a></li>
               <?php
