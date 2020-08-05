@@ -1,3 +1,13 @@
+<?php 
+include("../database/database.php");
+
+session_start();
+$logeo_incorrecto = '';
+if(isset($_SESSION['logeo_incorrecto'])){
+    $logeo_incorrecto = $_SESSION['logeo_incorrecto'];
+}
+session_destroy();
+?>
 <!DOCTYPE html>
 <html style="
     background: url(../assets/img/fondo.jpg) no-repeat;
@@ -6,6 +16,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
     <title>Inicio De Sesión</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../assets\css\stylesL.css">
@@ -17,12 +30,7 @@
     <li>
         <a href="../../index.php"><img style="width:50px;transform: rotate(-90deg); margin-top: 30px; margin-left: 10px; " src="../assets/img/next.png"></a>
     </li>
-<?php 
-include("../database/database.php");
 
-session_start();
-$logeo_incorrecto = $_SESSION['logeo_incorrecto'];
-?>
 </header>
 <body>
     <div class="container" id="registration-form">

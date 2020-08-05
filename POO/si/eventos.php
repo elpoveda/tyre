@@ -5,12 +5,12 @@ include("../database/database.php");
 session_start();
 $documento  = $_SESSION['sesion'];
 
-$query3 = $mysqli->query("SELECT * FROM Cliente WHERE Documento = '$documento'");
+$query3 = $mysqli->query("SELECT * FROM cliente WHERE Documento = '$documento'");
 $sesion = mysqli_fetch_array($query3);
 
 switch ($accion) {
 	case 'agregar':
-		$sentenciaSQL = ("INSERT INTO Cita(Cliente_Documento)VALUES('$documento')");
+		$sentenciaSQL = ("INSERT INTO cita(Cliente_Documento)VALUES('$documento')");
 
 		$consulta_prueba = mysqli_query($con, $sentenciaSQL);
 		echo json_encode($consulta_prueba);

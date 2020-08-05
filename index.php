@@ -1,3 +1,9 @@
+<?php 
+include("POO/database/database.php");
+require_once ('mobile/Mobile_Detect.php');
+$detect = new Mobile_Detect();
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -28,11 +34,6 @@
 
 
   <link href="POO/assets/css/style.css" rel="stylesheet">
-<?php 
-include("POO/database/database.php");
-require_once ('mobile/Mobile_Detect.php');
-$detect = new Mobile_Detect();
-?>
 </head>
 
 <body>
@@ -53,15 +54,26 @@ $detect = new Mobile_Detect();
           <li><a href="#contact">Contacto</a></li>
           <?php 
           if($detect->isMobile() == true){
+            if(!isset($_SESSION['sesion'])){
             ?>
             <li><a href="POO/views/login.php">Iniciar Sesión</a></li>
             <li><a href="POO/views/register.php">Registro</a></li>
-            <?php
+            <?php}else{
+              ?>
+              <li><a href="POO/si/logout.php">Cerrar Sesión</a></li>
+              <?php
+            }
           }else{
+            if(!isset($_SESSION['sesion'])){
             ?>
-            <li><a href="POO/views/login.php"><i style="font-size: 25px" title="INICIO DE SESION" class='bx bx-user-circle bx-spin-hover' ></i></a></li>
+            <li><a href="POO/views/login.php"><i style="font-size: 25px" title="INICIO DE SESIÓN" class='bx bx-user-circle bx-spin-hover' ></i></a></li>
             <li><a href="POO/views/register.php"><i style="font-size: 25px" title="REGISTRARSE" class='bx bxs-user-circle bx-spin-hover'></i></a></li>
             <?php
+            }else{
+              ?>
+              <li><a href="POO/si/logout.php"><i style="font-size: 25px" title="CERRAR SESIÓN" class='bx bx-log-out bx-spin-hover' ></i></a></li>
+              <?php
+            }
           }; ?>
         </ul>
       </nav>

@@ -1,3 +1,12 @@
+<?php 
+include("../database/database.php");
+session_start();
+$datos_incorrectos = '';
+if(isset($_SESSION['datos_incorrectos'])){
+    $datos_incorrectos = $_SESSION['datos_incorrectos'];
+}
+session_destroy();
+?>
 <!DOCTYPE html>
 <html style="
     background: url(../assets/img/fondo.jpg) no-repeat;
@@ -17,12 +26,6 @@
     <link rel="stylesheet" type="text/css" href="../assets\css\stylesR.css">
     <link href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
-<?php 
-include("../database/database.php");
-session_start();
-$datos_incorrectos = $_SESSION['datos_incorrectos'];
-session_destroy();
-?>
 </head>
 <header>
     <li>

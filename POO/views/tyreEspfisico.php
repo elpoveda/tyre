@@ -1,10 +1,13 @@
+<?php 
+  include("includes/header_include.php");
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Basico</title>
+  <title>Especializado Físico</title>
   
 
   <link href="../assets/img/favicon.png" rel="icon">
@@ -43,9 +46,6 @@
   <script src="../assets/elementos/owl.carousel/owl.carousel.min.js"></script>
 
   <script src="../assets/js/main.js"></script>
-  <?php 
-  include("includes/header_include.php");
-  ?>
 </head>
 <body>
 <header id="" style="background-color: #fff" class="fixed-top ">
@@ -62,9 +62,29 @@
           <li><a style="color: #444444" href="#team">Team</a></li>
           <li><a style="color: #444444" href="#cta" >Blog</a></li>
           <li><a style="color: #444444" href="#contact">Contacto</a></li>
-          <li><a style="color: #444444" href="login.php"><i style="font-size: 25px" title="INICIO DE SESION" class='bx bx-user-circle bx-spin-hover' ></i></a></li>
-          <li><a style="color: #444444" href="register.php"><i style="font-size: 25px" title="REGISTRARSE" class='bx bxs-user-circle bx-spin-hover'></i></a></li>
-
+          <?php 
+          if($detect->isMobile() == true){
+            if(!isset($_SESSION['sesion'])){
+            ?>
+            <li><a href="login.php" style="color: #444444">Iniciar Sesión</a></li>
+            <li><a href="register.php" style="color: #444444">Registro</a></li>
+            <?php}else{
+              ?>
+              <li><a href="../si/logout.php" style="color: #444444">Cerrar Sesión</a></li>
+              <?php
+            }
+          }else{
+            if(!isset($_SESSION['sesion'])){
+            ?>
+            <li><a href="login.php"><i style="font-size: 25px; color: #444444" title="INICIO DE SESIÓN" class='bx bx-user-circle bx-spin-hover' ></i></a></li>
+            <li><a href="register.php"><i style="font-size: 25px; color: #444444" title="REGISTRARSE" class='bx bxs-user-circle bx-spin-hover'></i></a></li>
+            <?php
+            }else{
+              ?>
+              <li><a href="../si/logout.php"><i style="font-size: 25px; color: #444444" title="CERRAR SESIÓN" class='bx bx-log-out bx-spin-hover' ></i></a></li>
+              <?php
+            }
+          }; ?>
         </ul>
       </nav>
 
@@ -348,9 +368,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="views/tyreEspfisico.php">Tyre Especializado Fisico</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="views/tyreEspvirtual.php">Tyre Especializado Virtual</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="views/tyreOutsourcing.php">Tyre Outsourcing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="tyreEspfisico.php">Tyre Especializado Fisico</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="tyreEspvirtual.php">Tyre Especializado Virtual</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="tyreOutsourcing.php">Tyre Outsourcing</a></li>
             </ul>
           </div>
 
