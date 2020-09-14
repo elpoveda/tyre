@@ -68,7 +68,8 @@
             ?>
             <li><a href="login.php" style="color: #444444">Iniciar Sesión</a></li>
             <li><a href="register.php" style="color: #444444">Registro</a></li>
-            <?php}else{
+            <?php
+            }else{
               ?>
               <li><a href="../si/logout.php" style="color: #444444">Cerrar Sesión</a></li>
               <?php
@@ -106,10 +107,10 @@
             <p>
             Se crea pensado en empresas que busquen ingresar al mundo digital, obteniendo un reconocimiento en redes sociales a través del desarrollo de contenido experiencial basado en estudios neurocientíficos y psicológicos que hacen posible la vinculación de los sentidos a la tecnología. así como el acompañamiento, apoyo y desarrollo de otros servicios indispensables tales como la creación del blog, página web, landing page, entre otros.
             </p>
-            <a href="#" style="color: #0082c3; font-size: 25px"><u>Mas Información</u></a>
+            <a href="#" style="color: #0082c3; font-size: 20px"><u>Más Información</u></a>
             
             <br><br><br>
-            <h3>Ubicación y datos de contacto</h3>
+            <h3>Datos de contacto</h3>
             <p><strong>Correo:  </strong> info@tyreagencia.com</p>
             <div>
     <div>
@@ -119,6 +120,7 @@
         <div id="CalendarioWeb" class="tabla"></div>
         <?php }else{ ?>
           <h5> Para agendar una cita, necesitas haber iniciado sesión.</h5>
+          <h5> Para iniciar sesión haz <a href="login.php">click aquí.</a></h5>
         <?php } ?>
       </div>
     </div>
@@ -298,8 +300,10 @@
           $('#txtDescripcion').val('');
   }
 </script>
-            <a href="#" class="btn-learn-more">ELIMINAR DATOS</a>
-            
+
+        <?php if($sesion != ''){ ?>
+          <a href="#" class="btn-learn-more">ELIMINAR DATOS</a>
+        <?php } ?>
           </div>
 
 
@@ -355,15 +359,16 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Enlaces</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#hero">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#main">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#portfolio">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#team">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#cta" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
             </ul>
           </div>
+
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Servicios</h4>
@@ -390,10 +395,10 @@
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter bx-burst-hover"></i></a>
+        <!--<a href="#" class="twitter"><i class="bx bxl-twitter bx-burst-hover"></i></a>-->
         <a href="https://www.facebook.com/Tyreagencia/" target="_blank" class="facebook"><i class="bx bxl-facebook bx-burst-hover"></i></a>
         <a href="https://www.instagram.com/tyreagencia/" target="_blank" class="instagram"><i class="bx bxl-instagram bx-burst-hover"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype bx-burst-hover"></i></a>
+        <!--<a href="#" class="google-plus"><i class="bx bxl-skype bx-burst-hover"></i></a>-->
         <a href="https://www.linkedin.com/company/tyrelitebrand/" target="_blank" class="linkedin"><i class="bx bxl-linkedin bx-burst-hover"></i></a>
       </div>
     </div>

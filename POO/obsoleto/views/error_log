@@ -1,0 +1,4 @@
+[05-Aug-2020 16:27:42 America/Bogota] PHP Warning:  include(../database/database.php): failed to open stream: No such file or directory in /home4/esolutio/tyreagencia.com/POO/obsoleto/views/tyreBasico.php on line 47
+[05-Aug-2020 16:27:42 America/Bogota] PHP Warning:  include(../database/database.php): failed to open stream: No such file or directory in /home4/esolutio/tyreagencia.com/POO/obsoleto/views/tyreBasico.php on line 47
+[05-Aug-2020 16:27:42 America/Bogota] PHP Warning:  include(): Failed opening '../database/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/esolutio/tyreagencia.com/POO/obsoleto/views/tyreBasico.php on line 47
+[05-Aug-2020 16:27:42 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home4/esolutio/tyreagencia.com/POO/obsoleto/views/tyreBasico.php on line 48

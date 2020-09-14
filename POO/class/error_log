@@ -1,0 +1,12 @@
+[05-Aug-2020 16:51:13 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home4/esolutio/tyreagencia.com/POO/class/Administrador.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/esolutio/tyreagencia.com/POO/class/Administrador.php on line 3
+[05-Aug-2020 16:51:17 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home4/esolutio/tyreagencia.com/POO/class/Administrador.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/esolutio/tyreagencia.com/POO/class/Administrador.php on line 3
+[05-Aug-2020 16:51:20 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Usuario' not found in /home4/esolutio/tyreagencia.com/POO/class/Cliente.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/esolutio/tyreagencia.com/POO/class/Cliente.php on line 3

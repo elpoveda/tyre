@@ -31,7 +31,7 @@ session_start();
   <link href="POO/assets/elementos/remixicon/remixicon.css" rel="stylesheet">
   <link href="POO/assets/elementos/venobox/venobox.css" rel="stylesheet">
   <link href="POO/assets/elementos/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <link href="POO/assets/css/style.css" rel="stylesheet">
 </head>
@@ -86,8 +86,8 @@ session_start();
   <section id="hero">
     <div class="hero-container">
       <h3>Bienvenidos A <strong>TYRE</strong></h3>
-      <h1>We're Creative Agency</h1>
-      <h2>Transformando marcas, Transformando el mundo.</h2>
+      <h1>Agencia de Mercado</h1>
+      <h2>Más que publicidad, toda una experiencia.</h2>
       
       <a href="#about" class="btn-get-started scrollto">Comenzar</a>
     </div>
@@ -101,7 +101,7 @@ session_start();
 
         <div class="section-title">
           <h2>Nosotros</h2>
-          <h3>Qué <span>Hacemos?</span></h3>
+          <h3>¿Qué <span>Hacemos?</span></h3>
           <p>Vinculamos la tecnología con los sentidos</p>
         </div>
 
@@ -122,7 +122,7 @@ session_start();
             <p>
             Somos un grupo de jóvenes apasionados por la estética, la creatividad, innovación, estar a la vanguardia en tendencias pero sobre todo en generar grandes experiencias, porque creemos que el marketing es el arte de interactuar con las personas por ello creamos TYRE buscando ir más allá de lo convencional, porque sabemos que estamos en un mundo de cambios constantes, para ello proporcionamos experiencias interactivas, tecnológicas, sensoriales y a su vez confiables porque para nosotros la palabra imposible no existe.
             </p>
-            <a href="#" class="btn-learn-more">Saber Mas</a>
+            <a href="#ctas" class="btn-learn-more">Saber Más</a>
           </div>
         </div>
 
@@ -194,7 +194,7 @@ session_start();
           <h3  style="color:  #4a745e; font-family: 'Monoton', cursive; font-size: 10vw; ">NUESTRO</h3>
           <br>
           <h3  style="color:  #4a745e; font-family: 'Monoton', cursive; font-size: 10vw; ">BLOG</h3>
-          <a class="cta-btn" href="#">ENTRAR</a>
+          <a class="cta-btn" href="https://tyrelitebrand.blogspot.com/" target="_blank">ENTRAR</a>
         </div> 
 
       </div>
@@ -246,55 +246,55 @@ session_start();
         <ul class="faq-list">
 
           <li>
-            <a data-toggle="collapse" class="" href="#faq1">Por que elegir tyre? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" class="" href="#faq1">¿Por qué elegir tyre? <i class="icofont-simple-up"></i></a>
             <div id="faq1" class="collapse show" data-parent=".faq-list">
               <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                Porque impulsamos una identidad empresarial única que genera valor a los clientes a través de los sentidos, tendencias y la tecnología. 
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed">Que metodos de pago manejan? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">¿Qué metodos de pago manejan? <i class="icofont-simple-up"></i></a>
             <div id="faq2" class="collapse" data-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                Manejamos Daviplata, Nequi, Banco de Bogota y Colpatria.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Tienen alianzas? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">¿Cómo nos aliamos con ustedes? <i class="icofont-simple-up"></i></a>
             <div id="faq3" class="collapse" data-parent=".faq-list">
               <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              En el botón contáctanos llena tus datos y en el asunto especifica “ALIANZA”.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq4" class="collapsed">Cuanto tiempo llevan en el mercado? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">¿Cómo los contactamos? <i class="icofont-simple-up"></i></a>
             <div id="faq4" class="collapse" data-parent=".faq-list">
               <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              En el botón contáctanos encontraras nuestro correo electronico y numero de teléfono o nos puedes escribir a nuestras redes sociales y nos estaremos contactando contigo lo más pronto posible.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">¿Qué tipo de tecnología ofrecen?<i class="icofont-simple-up"></i></a>
             <div id="faq5" class="collapse" data-parent=".faq-list">
               <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              Ofrecemos realidad aumentada, 3D, 5D y robótica, con el objetivo de hacer la publicidad más atractiva a través de los sentidos.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="icofont-simple-up"></i></a>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">¿Qué precios manejan?<i class="icofont-simple-up"></i></a>
             <div id="faq6" class="collapse" data-parent=".faq-list">
               <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              Los precios van desde los 100.000  en adelante, pero todo varía según las necesidades de cada clientes, además contamos con diferentes planes y descuento, así que no pierdas la oportunidad de cotizar con nosotros.
               </p>
             </div>
           </li>
@@ -321,10 +321,9 @@ session_start();
               <div class="member-img">
                 <img src="POO/assets/img/team/team-1.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.facebook.com/michell.leon159"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/michellleonflorido/"><i class="icofont-instagram"></i></a>
+                  <a href="http://linkedin.com/in/michell-vanessa-león-florido-14b4b8146"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -339,10 +338,9 @@ session_start();
               <div class="member-img">
                 <img src="POO/assets/img/team/team-2.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100007137495318"><i class="icofont-facebook"></i></a>
+                  <a href="https://instagram.com/diegobuitrago4?igshid=w9erbx6texmu"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/diego-buitrago-gil-9a1630150"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -355,50 +353,66 @@ session_start();
           <div class="col-lg-3 col-md-6 d-flex i-am-centered">
             <div class="member">
               <div class="member-img">
-                <img src="POO/assets/img/team/team-3.jpeg" alt="" width="255" height="255">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Kevin Tovar</h4>
-                <span>Director creatividad e innovación </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex i-am-centered">
-            <div class="member">
-              <div class="member-img">
                 <img src="POO/assets/img/team/team-4.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.facebook.com/CamiloAndresPovedaOficial"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/elpovedaoficial/?hl=es-la"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/camilo-andres-yaya-poveda-4597001b0/"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Camilo Yaya</h4>
-                <span>Director tecnología </span>
+                <span>Director de tecnología </span>
               </div>
             </div>
           </div>
-
-        </div>
-        <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex i-am-centered">
             <div class="member">
               <div class="member-img">
                 <img src="POO/assets/img/team/team-5.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href="https://www.facebook.com/jose.maldonadot/ "><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/jodagoma20/"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/jose-gomez-9637251b5/"><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Jose Gomez</h4>
+                <span>Director de Diseño </span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="row">
+
+          
+          <div class="col-lg-3 col-md-6 d-flex i-am-centered">
+            <div class="member">
+              <div class="member-img">
+                <img src="POO/assets/img/team/team-8.jpeg" alt="" width="255" height="255">
+                <div class="social">
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Carolina Rodríguez</h4>
+                <span>Directora Comercial </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex i-am-centered">
+            <div class="member">
+              <div class="member-img">
+                <img src="POO/assets/img/team/team-6.jpeg" alt="" width="255" height="255">
+                <div class="social">
+                  <a href="https://www.facebook.com/felipe.lozano.5667"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/maicolandresacevedo/?hl=es-la"><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
@@ -412,12 +426,11 @@ session_start();
           <div class="col-lg-3 col-md-6 d-flex i-am-centered">
             <div class="member">
               <div class="member-img">
-                <img src="POO/assets/img/team/team-6.jpeg" alt="" width="255" height="255">
+                <img src="POO/assets/img/team/team-7.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.facebook.com/luisa.rincon.507"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/luisa.rg/"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/luisa-rincon-1300361b5/"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -427,41 +440,7 @@ session_start();
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex i-am-centered">
-            <div class="member">
-              <div class="member-img">
-                <img src="POO/assets/img/team/team-7.jpeg" alt="" width="255" height="255">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Miguel Sósa</h4>
-                <span>Programador </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex i-am-centered">
-            <div class="member">
-              <div class="member-img">
-                <img src="POO/assets/img/team/team-8.jpeg" alt="" width="255" height="255">
-                <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Alejandro Chala</h4>
-                <span>Freelance en creatividad e innovación</span>
-              </div>
-            </div>
-          </div>
+          
 
 
         </div>
@@ -515,23 +494,23 @@ session_start();
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="POO/si/contactanos.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name_contactanos" class="form-control" id="name_contactanos" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email_contactanos" id="email_contactanos" placeholder="Tu Correo" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject_contactanos" id="subject_contactanos" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                <textarea class="form-control" id="text_contactanos" name="text_contactanos" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
@@ -541,6 +520,10 @@ session_start();
               </div>
               <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
             </form>
+
+            <script>
+            
+            </script>
 
           </div>
 
@@ -568,16 +551,29 @@ session_start();
         </p>
       </div>
 
-      <div class="col-lg-2 col-md-6 footer-links">
-        <h4>Useful Links</h4>
+      <div class="col-lg-3 col-md-6 footer-links" style="margin: auto;">
+        <h4>Enlaces</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#hero">Inicio</a></li>
+        </ul>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="#main">Nosotros</a></li>
+        </ul>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Servicios</a></li>
+        </ul>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+        </ul>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="#cta" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
         </ul>
       </div>
+          
+          
+          
+          
+        
 
       <div class="col-lg-3 col-md-6 footer-links" style="margin: auto;">
         <h4>Nuestros Servicios</h4>
@@ -623,10 +619,8 @@ if(alto == 1280 && ancho == 1024){
       $div = "<script> document.writeln(div); </script>"; 
       echo $div;
     ?>
-    <a href="#" class="twitter"><i class="bx bxl-twitter bx-burst-hover"></i></a>
     <a href="https://www.facebook.com/Tyreagencia/" target="_blank" class="facebook"><i class="bx bxl-facebook bx-burst-hover"></i></a>
     <a href="https://www.instagram.com/tyreagencia/" target="_blank" class="instagram"><i class="bx bxl-instagram bx-burst-hover"></i></a>
-    <a href="#" class="google-plus"><i class="bx bxl-skype bx-burst-hover"></i></a>
     <a href="https://www.linkedin.com/company/tyrelitebrand/" target="_blank" class="linkedin"><i class="bx bxl-linkedin bx-burst-hover"></i></a>
   </div>
 </div>
@@ -635,11 +629,15 @@ if(alto == 1280 && ancho == 1024){
 
 <?php 
   if($detect->isMobile() == true){?>
-    <a href="#" class="back-to-top" style="right: 50px;"><i title="Volver A El Inicio" style="background-color: #yellow; width: 50px; font-size: 20px; height: 50px;" class="ri-arrow-up-line"></i></a>
-    <a href="#" style="right: 30px;" class="back-to-top back-to-tops"><i title="Chatea Con Nosotros" style="background-color: #44d649; width: 20vw; font-size: 20px; height: 50px; margin-right: 80px" class='bx bxs-chat bx-tada-hover'></i></a>
-  <?php }else{ ?>
+    <div>
+    <a href="#" class="back-to-top" style="right: 25px; bottom: 80px;"><i title="Volver A El Inicio" style="background-color: #yellow; width: 50px; font-size: 20px; height: 50px;" class="ri-arrow-up-line"></i></a>
+    </div>
+    <div>
+    <a href="#contact" style="right: -60px;" class="chat scrollto"><i title="Chatea Con Nosotros" style="background-color: #44d649; width: 20vw; font-size: 20px; height: 50px; margin-right: 80px" class='bx bxs-chat'></i></a>
+    </div>
+    <?php }else{ ?>
     <a href="#" class="back-to-top"><i title="Volver A El Inicio" class="ri-arrow-up-line"></i></a>
-    <a href="#" style="right: 100px; " class="back-to-top back-to-tops"><i title="Chatea Con Nosotros" style="background-color: #44d649; width:16vw" class='bx bxs-chat bx-tada-hover'></i></a>
+    <a href="#contact" style="right: 100px; " class="chat scrollto"><i title="Chatea Con Nosotros" style="background-color: #44d649; width:16vw" class='bx bxs-chat bx-tada-hover'></i></a>
   <?php }?>
 
   

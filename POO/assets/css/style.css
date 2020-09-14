@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
+
 .back-to-top i {
   display: flex;
   align-items: center;
@@ -46,6 +47,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
+  bottom: 19px;
+}
+
+.chat {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  transition: 0.5s;
+}
+
+.chat i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background: #ffd21f;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.chat:hover {
   bottom: 19px;
 }
 

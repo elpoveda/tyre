@@ -1,0 +1,21 @@
+[03-Aug-2020 23:33:04 America/Bogota] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[03-Aug-2020 23:33:04 America/Bogota] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[05-Aug-2020 16:18:24 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 10
+[05-Aug-2020 16:18:24 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 13
+[05-Aug-2020 16:18:24 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 16
+[05-Aug-2020 16:19:10 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 10
+[05-Aug-2020 16:19:10 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 13
+[05-Aug-2020 16:19:10 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 16
+[05-Aug-2020 16:22:57 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 10
+[05-Aug-2020 16:22:57 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 13
+[05-Aug-2020 16:22:57 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/loguear.php on line 16
+[05-Aug-2020 16:50:50 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/eventos.php on line 9
+[05-Aug-2020 16:50:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home4/esolutio/tyreagencia.com/POO/si/eventos.php:45
+Stack trace:
+#0 {main}
+  thrown in /home4/esolutio/tyreagencia.com/POO/si/eventos.php on line 45
+[05-Aug-2020 16:50:56 America/Bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/esolutio/tyreagencia.com/POO/si/eventos.php on line 9
+[05-Aug-2020 16:50:56 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home4/esolutio/tyreagencia.com/POO/si/eventos.php:45
+Stack trace:
+#0 {main}
+  thrown in /home4/esolutio/tyreagencia.com/POO/si/eventos.php on line 45
