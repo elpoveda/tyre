@@ -394,9 +394,9 @@ session_start();
               <div class="member-img">
                 <img src="POO/assets/img/team/team-8.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/carolina-rodríguez19"><i class="icofont-facebook"></i></a>
+                  <a href="https://instagram.com/carolinee_rg?igshid=giqq2ym8thng"><i class="icofont-instagram"></i></a>
+                  <a href="https://m.me/Carolina.Rodriguez.CR04"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -413,7 +413,7 @@ session_start();
                 <div class="social">
                   <a href="https://www.facebook.com/felipe.lozano.5667"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/maicolandresacevedo/?hl=es-la"><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/luis-felipe-lozano-esguerra-127a311b5"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -430,7 +430,7 @@ session_start();
                 <div class="social">
                   <a href="https://www.facebook.com/luisa.rincon.507"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/luisa.rg/"><i class="icofont-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/luisa-rincon-1300361b5/"><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/luisa-maria-rincon-garcia-1300361b5"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">

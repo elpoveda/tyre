@@ -96,7 +96,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>ESPECIALIZADO OUTSORCING</h2>
+          <h2>ESPECIALIZADO FISICO</h2>
           <h3>Tyre<span> Especializado Outsorcing </span></h3>
           <p>Con campaña fisica programada <br>
 				45 min.</p>
@@ -361,13 +361,13 @@
       </div>
 
       <div class="col-lg-2 col-md-6 footer-links">
-        <h4>Enlaces</h4>
+        <h4>Useful Links</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#hero">Inicio</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#main">Nosotros</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#portfolio">Servicios</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#team">Team</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#cta" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
         </ul>
       </div>
 

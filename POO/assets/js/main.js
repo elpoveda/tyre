@@ -103,11 +103,7 @@
   });
 
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
       $('.chat').fadeIn('slow');
-    } else {
-      $('.chat').fadeOut('slow');
-    }
   });
 
 

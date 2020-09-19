@@ -96,7 +96,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>ESPECIALIZADO VIRTUAL</h2>
+          <h2>ESPECIALIZADO FISICO</h2>
           <h3>Tyre<span> Especializado Virtual </span></h3>
           <p>Con campaña fisica programada <br>
 				45 min.</p>
@@ -105,7 +105,8 @@
         <div class="row content">
           <div class="col-lg-6">
             <p>
-            Se crea pensando en empresas que busquen generar experiencias en eventos de manera presencial ofreciendo el espacio ideal para la creación de la campaña junto con el acompañamiento logístico, creación de elementos publicitarios con tecnología experiencial y sentidos.
+            Se crea pensado en empresas que busquen ingresar al mundo digital, obteniendo un reconocimiento en redes sociales a través del desarrollo de contenido experiencial basado en estudios neurocientíficos y psicológicos que hacen posible la vinculación de los sentidos a la tecnología. así como el acompañamiento, apoyo y desarrollo de otros servicios indispensables tales como la creación del blog, página web, landing page, entre otros.
+            
             </p>
             <a href="#" style="color: #0082c3; font-size: 20px"><u>Más Información</u></a>
             
@@ -360,16 +361,15 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Enlaces</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#hero">Inicio</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#main">Nosotros</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#portfolio">Servicios</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#team">Team</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="../../index.php#cta" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
-          </ul>
-        </div>
-
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#" style="color: #ffd21f"	><strong>BLOG</strong></a></li>
+            </ul>
+          </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Servicios</h4>
