@@ -394,9 +394,9 @@ session_start();
               <div class="member-img">
                 <img src="POO/assets/img/team/team-8.jpeg" alt="" width="255" height="255">
                 <div class="social">
-                  <a href="https://www.linkedin.com/in/carolina-rodríguez19"><i class="icofont-facebook"></i></a>
+                  <a href="https://m.me/Carolina.Rodriguez.CR04"><i class="icofont-facebook"></i></a>
                   <a href="https://instagram.com/carolinee_rg?igshid=giqq2ym8thng"><i class="icofont-instagram"></i></a>
-                  <a href="https://m.me/Carolina.Rodriguez.CR04"><i class="icofont-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/carolina-rodríguez19"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">

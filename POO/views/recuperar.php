@@ -53,7 +53,8 @@
                                         <textarea class="form-control" name="message" placeholder="Message"></textarea>
                                     </div>
                                 </div>
-
+                                <div align="center" class="g-recaptcha" data-sitekey="6Lcvhc4ZAAAAAAPMvUDwQ8yvLetUarwazNfCr4D8"></div>
+                                <br/>
                                 <div class="text-center">
                                     <div id="status"></div>
                                     <button type="submit" data-sitekey="6LdYucwZAAAAAPZUXj7hXT5qcW22hWD_V2sO15Tu" data-callback="onSubmit" data-action="submit" class="g-recaptcha btn btn-info btn-block rounded-0 py-2">Send</button>
@@ -73,7 +74,7 @@
         
         $.ajax({
                 type: "POST",
-                url: 'mail.php',
+                url: '../si/enviar_recuperar.php',
                 data: formData,
                 success: function (data) {
                     $('#status').html('<div  class="alert alert-success alert-dismissable">Your Query Sent Successfully We will Contact you Soon</div>');

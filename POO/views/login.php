@@ -97,7 +97,7 @@ session_destroy();
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-success btn-lg"><strong>INICIAR</strong></button>
-                    <a href="#"><h4 style="color: #ffff; padding-top: 10px;"><u>Olvidaste Tu Contraseña?</u></h4></a>
+                    <a href="recuperar.php"><h4 style="color: #ffff; padding-top: 10px;"><u>Olvidaste Tu Contraseña?</u></h4></a>
                     <a href="../views/register.php"><h4 style="color: #ffff; padding-top: 10px;"><u>Aun no tienes cuenta?</u></h4></a>
                 </div>
             </form>
